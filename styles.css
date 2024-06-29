@@ -1,0 +1,175 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    max-width: 100vw;
+    max-height: 100vh;
+    color: rgb(244, 241, 232);
+  }
+}
+
+body {
+  margin: 0px;
+  height: 100vh;
+  background-color: rgba(255, 198, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(219, 216, 209);
+  font-family: "poppins" sans-serif;
+  width: 100vw;
+}
+
+section {
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  border-radius: 40px;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.608);
+  animation: spin2 1s;
+}
+
+.hero {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: rgba(255, 198, 0, 1);
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.hero article {
+  text-align: left;
+}
+.profile {
+  width: 190px;
+  border-radius: 50%;
+  background-image: url(assets/img/Palm\ Angels.jpg);
+  background-size: cover;
+  animation: spin 2s;
+  animation-delay: 3s;
+}
+@keyframes spin2 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(3600deg);
+  }
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  border-width: 1px;
+  border-color: rgba(255, 198, 0, 1);
+  border-style: solid;
+  border-radius: 30px;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+
+.sos {
+  width: 30px;
+}
+.sos:hover {
+  scale: 1.2;
+}
+button {
+  background-color: #ffc700;
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #ffc700;
+  width: 200px;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+h1 {
+  font-size: 1.5rem;
+}
+h2 {
+  font-size: 0.93rem;
+  color: #ffc700;
+}
+h3 {
+  font-size: 0.7rem;
+  color: #ffc700;
+}
+.social {
+  display: flex;
+  height: fit-content;
+  gap: 15px;
+}
+
+b {
+  color: #ffc700;
+}
+
+.iconss {
+  width: 30px;
+}
+.iconss:hover {
+  scale: 1.2;
+}
+.aboutme {
+  width: 50%;
+}
+
+.v75_271 {
+  width: 100%;
+  font-size: 30px;
+  text-align: left;
+}
+
+.v79_90 {
+  color: rgba(255, 198, 0, 1);
+  font-weight: Medium;
+  font-size: 18px;
+  text-align: left;
+}
+
+.project{
+  width: 50%;
+}
+
+.featured-site{
+width: 100%;
+border-radius: 10px;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+ul span{
+  display: flex;
+  flex-direction: column;
+}
+a{
+  text-decoration: none;
+  color: #ffc700;
+  font-size: 1.2rem;
+}
+.myskills{
+  width: 40%;
+}
