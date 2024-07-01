@@ -174,8 +174,17 @@ a {
   }
   section{
     width: 90vw;
+    flex-direction: column;
   }
   .hero{
     width: 100%;
+  }
+  .aboutme{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+  }
+  .icons{
+    flex-direction: row;
   }
 }
